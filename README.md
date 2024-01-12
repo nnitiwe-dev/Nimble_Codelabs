@@ -5,9 +5,10 @@ This repository hosts a series of web scraping experiments, showcasing different
 
 ## Experiments
 1. Public Web Data Scraping in 2024- Practical Blog 
-  - `01-practical_blog/diy_scraping.py:` Demonstrates the Do-It-Yourself approach to web scraping.
-  - `01-practical_blog/hacker_approach.py:` Focuses on the Hacker Approach using internal APIs.
-  - `01-practical_blog/webapi.py:` Explores Managed WebAPIs for efficient data extraction.
+  * Expedia Scraping Experiment:
+    - `01-practical_blog/expedia-experiment/diy-scraping/:` Demonstrates the Do-It-Yourself approach to web scraping.
+    - `01-practical_blog/expedia-experiment/hacker-approach/:` Focuses on the Hacker Approach using internal APIs.
+    - `01-practical_blog/expedia-experiment/webapi/:` Explores Managed WebAPIs for efficient data extraction.
 
 ## Getting Started
 Navigate to each folder to find specific READMEs detailing the experiment setup and objectives.
