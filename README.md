@@ -1,28 +1,48 @@
-# Nimble Web Scraping Experiments Repository
+# Nimble API Web Scraping Experiments
+
+Welcome to the official repository for code experiments from Nimble's web scraping blog series. This repository is a collection of unique experiments and code snippets that we've discussed in our various articles on web scraping techniques using Nimble API.
 
 ## Overview
-This repository hosts a series of web scraping experiments, showcasing different techniques and tools in line with Nimble blog labs. Each experiment demonstrates practical applications and insights.
 
-## Experiments
-1. Public Web Data Scraping in 2024- Practical Blog 
+Each folder in this repository corresponds to a specific article in our blog series. Inside each folder, you'll find the complete code used in the experiments, along with detailed comments explaining each step of the process. Our goal is to provide a practical, hands-on resource for learning and experimenting with web scraping techniques.
 
-  * **Simple HTML Structures** - [Powells Scraping Experiment](https://www.powells.com/featured/picks-of-the-season-2023):
-    - `01-practical_blog/powells-experiment/diy-scraping/:` Demonstrates the Do-It-Yourself approach to web scraping.
-    - `01-practical_blog/powells-experiment/requests-capture-approach/:` Not Applicable.
-    - `01-practical_blog/powells-experiment/modern-approach/:` Explores Managed WebAPIs for efficient data extraction.
+## How to Navigate
 
-  * **JavaScript Heavy** - [BBC Scraping Experiment](https://www.bbc.com/news/world-europe-67895152):
-    - `01-practical_blog/bbc-experiment/diy-scraping/:` Demonstrates the Do-It-Yourself approach to web scraping.
-    - `01-practical_blog/bbc-experiment/requests-capture-approach/:` Not Applicable.
-    - `01-practical_blog/bbc-experiment/modern-approach/:` Explores Managed WebAPIs for efficient data extraction.
+1. **Experiments by Article**: Navigate to the sub-folder named after the blog article you're interested in. Each folder contains all the relevant code and resources used in that particular experiment.
 
-  * **Strong Anti-Scraping Measures** - [Expedia Scraping Experiment](https://www.expedia.com/Hotel-Search?adults=&children=&destination=Dubai%2C%20Dubai%2C%20United%20Arab%20Emirates&endDate=2024-01-14&guestRating=ANY&regionId=6053839&selected=1109595&semdtl=&sort=RECOMMENDED&startDate=2024-01-12&theme=&useRewards=false&userIntent=):
-    - `01-practical_blog/expedia-experiment/diy-scraping/:` Demonstrates the Do-It-Yourself approach to web scraping.
-    - `01-practical_blog/expedia-experiment/requests-capture-approach/:` Focuses on the Network Requests Capture Approach using internal APIs.
-    - `01-practical_blog/expedia-experiment/modern-approach/:` Explores Managed WebAPIs for efficient data extraction.
+  - Public Web Data Scraping in 2024 - Practical Blog: [LINK]() 
+  - The Ultimate Guide to Python Web Scraping - Guidelines: [LINK]()
 
+2. **Documentation**: Each experiment folder contains a README file with an overview of the experiment, setup instructions, and additional notes.
 
 ## Getting Started
-Navigate to each folder to find specific READMEs detailing the experiment setup and objectives.
+
+To get started with these experiments, you'll need to have a basic understanding of web scraping and programming in the language used in the experiments (Python, JavaScript, etc.). Follow these steps:
+
+1. **Clone the Repository**: Use `git clone` to clone this repository to your local machine.
+2. **Install Dependencies**: Navigate to the experiment folder and install any required dependencies listed in the README.
+3. **Read the Article**: For context and detailed explanations, read the corresponding blog article on [Nimble's website](https://nimbleway.com/blogpage/).
+4. **Run the Experiments**: Follow the instructions in the experiment's README to run the code.
+
+## Contributing
+
+We encourage contributions to this repository! If you have suggestions for improvements or new experiments, please follow our contribution guidelines outlined in `CONTRIBUTING.md`.
+
+## License
+
+This repository is licensed under the [MIT License](LICENSE). Feel free to use and modify the code for your personal or professional projects.
+
+## Contact
+
+For any questions or feedback regarding this repository, please contact me at [nnitiwe@gmail.com](mailto:[nnitiwe@gmail.com).
+
+## Acknowledgements
+
+Special thanks to all the contributors and the Nimble community for their continuous support and feedback.
+
+---
+
+Happy Scraping!
+
 
 
