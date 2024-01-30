@@ -10,8 +10,8 @@ Each folder in this repository corresponds to a specific article in our blog ser
 
 1. **Experiments by Article**: Navigate to the sub-folder named after the blog article you're interested in. Each folder contains all the relevant code and resources used in that particular experiment.
 
-  - Public Web Data Scraping in 2024 - Practical Blog: [LINK]() 
-  - The Ultimate Guide to Python Web Scraping - Guidelines: [LINK]()
+  - Public Web Data Scraping in 2024 - Practical Blog: [LINK](https://github.com/nnitiwe-dev/Nimble_Codelabs/tree/main/01-practical_blog) 
+  - The Ultimate Guide to Python Web Scraping - Guidelines: [LINK](https://github.com/nnitiwe-dev/Nimble_Codelabs/tree/main/02-scraping-amazon-with-python)
 
 2. **Documentation**: Each experiment folder contains a README file with an overview of the experiment, setup instructions, and additional notes.
 
