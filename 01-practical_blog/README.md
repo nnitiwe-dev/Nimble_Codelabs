@@ -73,19 +73,19 @@ STEPS REQUIRED:
 
 |  |  | DIY Approach (Beautiful Soup) | Shortcut Approach (Nimble’s Network Capture) | WebAPI (Nimble’s WebAPI) |
 | --- | --- | --- | --- | --- |
-| 1. | Simple HTML Structures: https://www.powells.com/featured/picks-of-the-season-2023 |  |  |  |
+| 1. | Simple HTML Structures: [Powells](https://www.powells.com/featured/picks-of-the-season-2023) |  |  |  |
 |  | Scrape Status | ✅ | ✅ | ✅ |
 |  | Parsed Data Accuracy | ✅ Parsed Successfully  [Manual] | Parsed Successfully - Needs further cleaning &  | ✅ Parsed Successfully  |
 |  | Time to Implement | ~1.5 hours | ~20 mins | Instant |
 |  | Maintenance Required? | YES - For parsers, proxies, captcha solver | No Maintenance required | No Maintenance required |
 |  |  |  |  |  |
-| 2. | JavaScript Heavy: https://www.bbc.com/news/world-europe-67895152 |  |  |  |
+| 2. | JavaScript Heavy: [BBC](https://www.bbc.com/news/world-europe-67895152) |  |  |  |
 |  | Scrape Status | ⚠️ Failed | Not Applicable | ✅ |
 |  | Parsed Data Accuracy | ❌ | Parsed Successfully - Needs further cleaning | Parsed Successfully - 80% accuracy |
 |  | Time to Implement | ~3 hours | ~20 mins | Instant |
 |  | Maintenance Required? | ⚠️ Requires advanced headless browsers, parsers, proxies, captcha solver, etc | No Maintenance required | No Maintenance required |
 |  |  |  |  |  |
-| 3. | Strong Anti-Scraping Measures: https://www.expedia.com/Hotel-Search?adults=&children=&destination=Dubai%2C%20Dubai%2C%20United%20Arab%20Emirates&endDate=2024-01-14&guestRating=ANY&regionId=6053839&selected=1109595&semdtl=&sort=RECOMMENDED&startDate=2024-01-12&theme=&useRewards=false&userIntent= |  |  |  |
+| 3. | Strong Anti-Scraping Measures: [Expedia](https://www.expedia.com/Hotel-Search?adults=&children=&destination=Dubai%2C%20Dubai%2C%20United%20Arab%20Emirates&endDate=2024-01-14&guestRating=ANY&regionId=6053839&selected=1109595&semdtl=&sort=RECOMMENDED&startDate=2024-01-12&theme=&useRewards=false&userIntent=) |  |  |  |
 |  | Scrape Status | ⚠️ Failed | ✅ | ✅ |
 |  | Parsed Data Accuracy | ❌ | ✅ Parsed Successfully  [Automated] | ✅ Parsed Successfully  [Automated] |
 |  | Time to Implement | 4 hours | 10 minutes to study & filter network requests | Instant |
