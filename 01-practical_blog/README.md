@@ -66,3 +66,28 @@ STEPS REQUIRED:
     - `01-practical_blog/expedia-experiment/diy-scraping/:` Demonstrates the Do-It-Yourself approach to web scraping.
     - `01-practical_blog/expedia-experiment/requests-capture-approach/:` Focuses on the Network Requests Capture Approach using internal APIs.
     - `01-practical_blog/expedia-experiment/modern-approach/:` Explores Managed WebAPIs for efficient data extraction.
+
+
+
+##  Results
+
+|  |  | DIY Approach (Beautiful Soup) | Shortcut Approach (Nimble’s Network Capture) | WebAPI (Nimble’s WebAPI) |
+| --- | --- | --- | --- | --- |
+| 1. | Simple HTML Structures: https://www.powells.com/featured/picks-of-the-season-2023 |  |  |  |
+|  | Scrape Status | ✅ | ✅ | ✅ |
+|  | Parsed Data Accuracy | ✅ Parsed Successfully  [Manual] | Parsed Successfully - Needs further cleaning &  | ✅ Parsed Successfully  |
+|  | Time to Implement | ~1.5 hours | ~20 mins | Instant |
+|  | Maintenance Required? | YES - For parsers, proxies, captcha solver | No Maintenance required | No Maintenance required |
+|  |  |  |  |  |
+| 2. | JavaScript Heavy: https://www.bbc.com/news/world-europe-67895152 |  |  |  |
+|  | Scrape Status | ⚠️ Failed | Not Applicable | ✅ |
+|  | Parsed Data Accuracy | ❌ | Parsed Successfully - Needs further cleaning | Parsed Successfully - 80% accuracy |
+|  | Time to Implement | ~3 hours | ~20 mins | Instant |
+|  | Maintenance Required? | ⚠️ Requires advanced headless browsers, parsers, proxies, captcha solver, etc | No Maintenance required | No Maintenance required |
+|  |  |  |  |  |
+| 3. | Strong Anti-Scraping Measures: https://www.expedia.com/Hotel-Search?adults=&children=&destination=Dubai%2C%20Dubai%2C%20United%20Arab%20Emirates&endDate=2024-01-14&guestRating=ANY&regionId=6053839&selected=1109595&semdtl=&sort=RECOMMENDED&startDate=2024-01-12&theme=&useRewards=false&userIntent= |  |  |  |
+|  | Scrape Status | ⚠️ Failed | ✅ | ✅ |
+|  | Parsed Data Accuracy | ❌ | ✅ Parsed Successfully  [Automated] | ✅ Parsed Successfully  [Automated] |
+|  | Time to Implement | 4 hours | 10 minutes to study & filter network requests | Instant |
+|  | Maintenance Required? | ⚠️ Requires integration with advanced tools for captcha solving, etc | No Maintenance required | No Maintenance required |
+|  |  |  |  |  |
